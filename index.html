@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body >
+    <div class="container">
+      <div class="header">
+        <h2>Calc</h2>
+        <div class="theme">
+          <p>Theme</p>
+          <input type="range" id='chckbx' class="chckbox" min="0" max="2" value='0'>
+          <!-- <label for="chckbx">
+            <div class='ball'></div>
+          </label> -->
+        </div>
+      </div>
+      <!-- <div class="display"> -->
+        <input type="text" class="display" placeholder="0" disabled/>
+      <!-- </div> -->
+      <div class="keys">
+        <button class="bt-7">7</button>
+        <button class="bt-8">8</button>
+        <button class="bt-9">9</button>
+        <button class="bt-del">DEL</button>
+        <button class="bt-4">4</button>
+        <button class="bt-5">5</button>
+        <button class="bt-6">6</button>
+        <button class="bt-plus">+</button>
+        <button class="bt-1">1</button>
+        <button class="bt-2">2</button>
+        <button class="bt-3">3</button>
+        <button class="bt-minus">-</button>
+        <button class="bt-dot">.</button>
+        <button class="bt-0">0</button>
+        <button class="bt-divide">/</button>
+        <button class="bt-multiply">*</button>
+        <button class="bt-reset">RESET</button>
+        <button class="bt-equal">=</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
